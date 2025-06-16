@@ -1,0 +1,32 @@
+{  
+    // This is the start of the main JSON object (like a Python dictionary)
+
+    "tasks": [  // The key "tasks" holds a list (like a Python list) of task items
+
+        {  
+            // This is the first task item (like a Python dictionary inside the list)
+            "description": "Item list 1",  // The text of the task
+            "complete": true               // true means the task is marked as completed
+        },
+
+        {  
+            // Second task item
+            "description": "Make my bed",  // The task the user wants to do
+            "complete": false              // false means the task is still pending (not completed)
+        },
+
+        {  
+            // Third task item
+            "description": "Watch TV",     // Another task
+            "complete": true               // This instance of "Watch TV" is marked complete
+        },
+
+        {  
+            // Fourth task item
+            "description": "Watch TV",     // Same description as the third one (duplicate task)
+            "complete": false              // This one is not complete — same name, different status
+        }
+    ]
+    // End of the list of tasks
+}
+// End of the main JSON object
